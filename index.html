@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Presupuestador Luz</title>
+  <style>
+    body {
+      background: #eaf4ec;
+      font-family: 'Segoe UI', sans-serif;
+      padding: 10px;
+    }
+    .contenedor {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .panel {
+      background: white;
+      border: 3px solid #2a6e36;
+      padding: 10px;
+      max-width: 420px;
+      flex-grow: 1;
+    }
+    .titulo {
+      background: #2a6e36;
+      color: white;
+      text-align: center;
+      padding: 8px;
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+    .tabla-datos {
+      width: 100%;
+    }
+    .tabla-datos td {
+      padding: 4px;
+    }
+    .label {
+      background: #a5d6a7;
+      font-weight: bold;
+    }
+    .celda input, .celda select {
+      width: 100%;
+      padding: 4px;
+    }
+  </style>
+</head>
+<body>
+  <div class="contenedor">
+    <!-- Paneles se rellenan con JavaScript -->
+    <div class="panel">
+      <div class="titulo">2.0TD</div>
+      <table class="tabla-datos" id="tabla_20td"></table>
+    </div>
+    <div class="panel">
+      <div class="titulo">3.0TD</div>
+      <table class="tabla-datos" id="tabla_30td"></table>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
