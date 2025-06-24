@@ -7,20 +7,20 @@
     body {
       background: #eaf4ec;
       font-family: 'Segoe UI', sans-serif;
-      padding: 20px;
+      padding: 6px;
     }
     .panel {
-      max-width: 900px;
+      max-width: 860px;
       margin: auto;
       background: white;
       border: 3px solid #2a6e36;
-      padding: 20px;
+      padding: 6px;
     }
     .header {
       background: #2a6e36;
       color: white;
       text-align: center;
-      padding: 10px;
+      padding: 6px;
       font-size: 32px;
       font-weight: bold;
     }
@@ -70,18 +70,18 @@
       background: #ffccbc;
       color: #000;
       font-weight: bold;
-      padding: 10px;
-      font-size: 18px;
+      padding: 6px;
+      font-size: 14px;
     }
     .resultado {
       margin-top: 10px;
       background: #d4f7d4;
-      padding: 12px;
+      padding: 8px;
       text-align: center;
       border: 2px solid #2a6e36;
       transition: background-color 0.5s ease, transform 0.4s ease;
       animation: entrada 0.6s ease-in-out;
-      font-size: 16px;
+      font-size: 14px;
     }
     @keyframes entrada {
       0% {
@@ -96,28 +96,28 @@
     .ahorro-verde {
       color: #388e3c;
       transition: color 0.4s ease;
-      font-size: 18px;
+      font-size: 14px;
       font-weight: bold;
     }
     .ahorro-rojo {
       color: #d32f2f;
       transition: color 0.4s ease;
-      font-size: 18px;
+      font-size: 14px;
       font-weight: bold;
     }
     .barras-container {
-      margin-top: 30px;
+      margin-top: 10px;
       text-align: center;
     }
     .barras {
       display: flex;
       justify-content: space-around;
       align-items: flex-end;
-      height: 150px;
+      height: 100px;
       background: #f9f9f9;
       border: 1px solid #ccc;
       margin: 0 auto;
-      max-width: 250px;
+      max-width: 200px;
     }
     .barra {
       width: 60px;
@@ -151,24 +151,24 @@
   /* Estilos para resultado reorganizado */
   .resultado-principal {
     text-align: left;
-    padding: 10px;
+    padding: 6px;
   }
   .resultado-principal strong {
     display: inline-block;
     width: 120px;
-    font-size: 18px;
+    font-size: 14px;
   }
   .factura-actual-value, .factura-nueva-value {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
   }
   .promo-box {
     margin-top: 15px;
     background-color: #ffecb3;
     border: 2px solid #ffb300;
-    padding: 10px;
+    padding: 6px;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
   }
 </style>
 </head>
@@ -207,7 +207,7 @@
         </tr>
         <tr>
           <td class="label-grey">Bono social</td>
-          <td><input id="bono20" type="number" step="0.000001" value="0.012742"></td>
+          <td><input id="bono20" type="number" step="0.000001"></td>
         </tr>
         <tr>
           <td class="label-green">IVA</td>
